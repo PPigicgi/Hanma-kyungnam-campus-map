@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#173e36">
+  <meta name="description" content="경남대학교 월영캠퍼스 건물, 층별 학과와 시설을 찾아보는 캠퍼스 안내도">
+  <title>경남대학교 · 모바일 지도</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23173e36'/%3E%3Ctext x='20' y='27' text-anchor='middle' font-size='22' fill='white'%3EK%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="library.css">
+  <link rel="stylesheet" href="road-editor.css">
+  <link rel="stylesheet" href="building-directory.css">
+  <link rel="stylesheet" href="gps-navigation.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="assistant-link.css">
+  <script defer src="data.js"></script>
+  <script defer src="parking-data.js"></script>
+  <script defer src="core.js"></script>
+  <script defer src="scene.js"></script>
+  <script defer src="amenity-models.js"></script>
+  <script defer src="floor-scene.js"></script>
+  <script defer src="seonghun-plans.js"></script>
+  <script defer src="library.js"></script>
+  <script defer src="road-network.js"></script>
+  <script defer src="final-roads.js"></script>
+  <script defer src="road-editor.js"></script>
+  <script defer src="building-directory-data.js"></script>
+  <script defer src="building-directory.js"></script>
+  <script defer src="gps-navigation.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body class="mobile-app" data-mobile-app="true">
+<a class="skip-link" href="#search">장소 검색으로 이동</a>
+<header class="header">
+  <div class="brand-area">
+    <a class="brand" href="./mobile.html" aria-label="경남대학교 모바일 지도 처음으로"><span class="brand-symbol" aria-hidden="true"><img src="assets/kyungnam-symbol.png" alt="" width="245" height="239"></span><span><strong>경남대학교</strong><small>월영캠퍼스 안내도</small></span></a>
+    <a class="assistant-launch" href="http://127.0.0.1:8765/mobile" target="_blank" rel="noopener noreferrer" aria-label="AI 도우미 한마에 질문하기 (새 탭)"><span class="assistant-symbol" aria-hidden="true"><img src="assets/kyungnam-symbol.png" alt="" width="245" height="239"></span><span>AI 도우미 한마</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4 10 14M10 4H4v16h16v-6"/></svg></a>
+  </div>
+  <div class="header-actions"><span class="demo-badge">CAMPUS GUIDE</span><button id="about-open" class="icon-button" aria-label="지도 사용법"><span data-icon="info"></span></button></div>
+</header>
+<main class="workspace">
+  <aside class="sidebar" aria-label="캠퍼스 장소 탐색">
+    <div class="sidebar-head"><h1>캠퍼스 한눈에</h1><p>건물을 찾고, 이어지는 길을 따라가세요.</p></div>
+    <nav class="tabs" aria-label="탐색 모드"><button class="active" data-tab="explore" aria-pressed="true"><span data-icon="compass"></span>둘러보기</button><button data-tab="route" aria-pressed="false"><span data-icon="route"></span>경로</button><button data-tab="saved" aria-pressed="false"><span data-icon="bookmark"></span>저장</button></nav>
+    <section id="explore-panel" class="panel">
+      <div class="search-box"><span data-icon="search"></span><input id="search" type="search" placeholder="건물명, 번호, 학과로 검색" aria-label="건물명, 건물 번호, 학과 또는 시설 검색" autocomplete="off"><kbd>/</kbd></div>
+      <div class="filters" aria-label="장소 종류"><button class="active" data-category="all" aria-pressed="true">전체</button><button data-category="study" aria-pressed="false">건물</button><button data-category="life" aria-pressed="false">생활</button><button data-category="outdoor" aria-pressed="false">야외</button><button data-category="gate" aria-pressed="false">출입구</button></div>
+      <div class="list-heading"><h2 id="list-title">캠퍼스의 장소</h2><span id="result-count"></span></div>
+      <div id="places-list" class="places-list" aria-label="장소 검색 결과"></div>
+    </section>
+    <section id="route-panel" class="panel" hidden>
+      <button id="gps-open" class="gps-open-button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4"/></svg>현재 위치로 길찾기</button>
+      <div class="section-kicker">장소 사이를 연결해 보세요</div>
+      <form id="route-form"><div class="route-fields"><label><span class="route-dot start-dot"></span><span class="sr-only">출발지</span><select id="route-from" aria-label="출발지"></select></label><button type="button" id="swap-route" class="swap-button" aria-label="출발지와 도착지 바꾸기"><span data-icon="swap"></span></button><label><span class="route-dot end-dot"></span><span class="sr-only">도착지</span><select id="route-to" aria-label="도착지"></select></label></div><button class="primary-button route-submit" type="submit"><span data-icon="route"></span>최단 경로 보기</button></form>
+      <p class="route-caution"><span data-icon="info"></span>현재 도로망의 최단 경로입니다. 건물 앞 연결선이 포함됩니다.</p>
+      <div id="route-result" aria-live="polite"><div class="route-intro"><span data-icon="route"></span><h2>출발지에서 목적지까지</h2><p>두 장소를 선택하면 연결 가능한 길을 지도에서 확인할 수 있어요.</p></div></div>
+    </section>
+    <div id="mobile-detail"></div>
+  </aside>
+  <section class="map-panel" aria-label="경남대학교 캠퍼스 지도">
+    <div class="map-top"><div class="map-tag"><span data-icon="pin"></span><div><strong>경남대학교</strong><small>월영캠퍼스 · 도식형 안내도</small></div></div><div class="map-mode" aria-label="지도 표현"><button id="mode-flat" aria-pressed="false">2D</button><button id="mode-depth" class="active" aria-pressed="true">안내도</button></div></div>
+    <div id="map-wrap" class="map-wrap"><svg id="campus-map" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="건물을 선택할 수 있는 캠퍼스 지도. 휠 버튼 드래그로 회전, 방향키로 이동, 더하기와 빼기로 확대 및 축소합니다. Q와 E로 회전하고 R로 방향을 초기화합니다." tabindex="0"><title>경남대학교 월영캠퍼스 지도</title></svg></div>
+    <div class="north" aria-label="북쪽 방향"><span>N</span><svg viewBox="0 0 32 40" aria-hidden="true"><path d="M16 3 27 34 16 28 5 34Z" fill="#24483e"/><path d="M16 3 16 28 5 34Z" fill="#fff"/></svg></div>
+    <div class="map-controls"><button id="zoom-in" class="icon-button" aria-label="지도 확대"><span data-icon="plus"></span></button><button id="zoom-out" class="icon-button" aria-label="지도 축소"><span data-icon="minus"></span></button><div></div><button id="fit-map" title="전체 보기 · 방향 초기화" class="icon-button" aria-label="캠퍼스 전체 보기"><span data-icon="fit"></span></button></div>
+    <div id="desktop-detail"></div>
+    <button id="parking-toggle" class="parking-toggle" aria-pressed="true" aria-controls="parking-pins"><b aria-hidden="true">P</b><span>주차장</span></button>
+    <div class="pin-legend" aria-label="번호 색 안내"><span class="cat-study"><i></i>건물</span><span class="cat-life"><i></i>생활</span><span class="cat-outdoor"><i></i>야외</span><span class="cat-gate"><i></i>출입구</span></div>
+    <div class="map-legend"><span><i class="legend-building"></i>건물</span><span><i class="legend-green"></i>녹지·운동장</span><span><i class="legend-route"></i>최단 경로</span></div>
+    <div class="map-bottom"><span id="scale" class="scale">KYUNGNAM CAMPUS</span><span class="map-gesture-hint">휠 드래그 · 회전　|　Q / E · 회전　R · 초기화</span><span class="attribution"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap 기여자</a></span></div>
+    <div id="loading" class="loading"><span class="loader"></span>캠퍼스를 불러오고 있어요</div>
+    <div id="map-error" class="map-error" hidden role="alert">지도 자료를 불러오지 못했습니다. 폴더의 모든 파일이 함께 있는지 확인한 뒤 <button onclick="location.reload()">새로고침</button>해 주세요.</div>
+  </section>
+</main>
+<dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><button id="about-close" class="icon-button" aria-label="지도 정보 닫기"><span data-icon="close"></span></button></div><h2 id="about-title">캠퍼스 지도 사용법</h2><p>건물과 학과를 찾고, 층별 시설을 살펴보세요. 중앙도서관과 성훈관에서는 층을 선택해 입체 구조도를 볼 수 있습니다.</p><div class="data-note"><strong>지도 사용법</strong><p>건물·학과·시설명으로 검색하고 건물을 선택하세요. 휠 버튼을 누른 채 드래그하면 지도가 회전합니다.</p></div><p class="small-text">개인 제작 캠퍼스 안내도 · 사진 © 경남대학교</p></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+<noscript><div class="no-script">이 지도는 JavaScript가 필요합니다. 브라우저에서 JavaScript를 켜 주세요.</div></noscript>
+</body>
+</html>
+
+

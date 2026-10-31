@@ -1,0 +1,15 @@
+body.mobile-view{max-width:430px;margin:0 auto}
+.header-note{display:none}
+.header{padding:14px 16px}.brand{font-size:15px}.brand small{font-size:12px;margin-top:1px}.monogram{width:36px;height:36px}
+.layout{display:block;padding:0}
+.sidebar{padding:12px 0 0}.eyebrow,h1,.intro,.source-note{display:none}
+.sidebar h2{font-size:13px;margin:0 16px 8px;color:var(--muted);font-weight:600}
+.topics{display:flex;overflow-x:auto;gap:8px;padding:0 16px 12px;scroll-snap-type:x proximity;scroll-padding:0 16px;scrollbar-width:none}.topics::-webkit-scrollbar{display:none}
+.topics button{border:1px solid var(--line);border-radius:999px;min-height:40px;padding:0 14px;font-size:13px;flex-shrink:0;background:#fff;scroll-snap-align:start}.topics .icon{display:none}
+.chat{height:calc(100dvh - 158px);min-height:460px;max-height:none;border:0;border-top:1px solid var(--line);border-radius:0}
+.chat-head{padding:10px 16px}.chat-head strong{font-size:14px}
+.messages{padding:20px 16px;min-height:0;max-height:none}
+.message p,.message .answer-body,.welcome p{font-size:15px;line-height:1.75}.message .muted{font-size:13px}.message.user{margin-left:10%}
+.composer{padding:0 12px 4px}.input-wrap{padding-left:12px}#send{padding:0 14px;font-size:14px}textarea{font-size:16px}
+#input-hint{visibility:hidden}.composer-foot{font-size:11px}
+.chat-foot{font-size:12px;padding:4px 16px 16px;text-align:left}.error{margin:0 12px 10px}

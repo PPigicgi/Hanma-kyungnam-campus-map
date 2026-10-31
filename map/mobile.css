@@ -1,0 +1,42 @@
+/* The mobile entry is a direct app document, also readable on a desktop screen. */
+html{background:#edf1ee}
+body.mobile-app{width:100%;max-width:430px;height:100dvh;margin:0 auto;position:relative;overflow:hidden;background:#fff;box-shadow:0 0 36px #173e3612}
+.mobile-app .header{height:64px;padding:0 18px;gap:10px}
+.mobile-app .brand{gap:9px}.mobile-app .brand-symbol{width:35px;height:35px}.mobile-app .brand strong{font-size:15px}.mobile-app .brand small{font-size:7px;letter-spacing:1.4px;margin-top:4px}.mobile-app .demo-badge{display:none}
+.mobile-app .workspace{height:calc(100dvh - 64px);min-height:0;display:flex;flex-direction:column}
+.mobile-app .map-panel{order:0;flex:0 0 48%;min-height:250px;max-height:none}
+.mobile-app .sidebar{order:1;flex:1;min-height:0;border-top:1px solid #d7dfd3;border-right:0}
+.mobile-app .sidebar-head{display:none}.mobile-app .tabs{padding:0 18px;gap:20px}.mobile-app .tabs button{height:45px;font-size:12px}.mobile-app .tabs .icon{width:16px;height:16px}
+.mobile-app .panel{padding:14px 18px 0}.mobile-app .search-box{height:44px}.mobile-app .search-box input{font-size:13px}.mobile-app .search-box kbd{display:none}
+.mobile-app .filters{margin:10px 0;gap:6px}.mobile-app .filters button{min-height:44px;flex:1;padding:0 8px;font-size:11px}
+.mobile-app .place-row{min-height:62px;padding:9px 7px}.mobile-app .place-row strong{font-size:12px}.mobile-app .place-row small{font-size:10px}
+.mobile-app .map-top{top:14px;left:14px;right:14px;gap:8px}.mobile-app .map-tag{padding:9px 10px}.mobile-app .map-tag>.icon{display:none}.mobile-app .map-tag strong{font-size:11px}.mobile-app .map-tag small{font-size:8px}.mobile-app .map-mode button{min-height:40px;padding:0 9px;font-size:10px}
+.mobile-app .map-controls{right:14px;bottom:38px}.mobile-app .map-controls .icon-button{width:44px;height:44px}.mobile-app .north{top:75px;right:24px}.mobile-app .north svg{height:27px}
+.mobile-app .map-legend,.mobile-app .scale,.mobile-app .map-gesture-hint{display:none}.mobile-app .map-bottom{left:14px;right:14px;bottom:4px}.mobile-app .attribution{font-size:7px}.mobile-app .parking-toggle{left:14px;bottom:8px;font-size:11px}
+.mobile-app #mobile-detail{flex:1;min-height:0;overflow:auto}.mobile-app.has-mobile-detail #explore-panel{display:none}
+.mobile-app .detail-card{position:relative;inset:auto;width:auto;max-width:none;max-height:none;margin:0;border:0;border-radius:0;box-shadow:none;padding:16px 20px;display:block}
+.mobile-app .detail-photo{height:120px;border-radius:7px}.mobile-app .detail-body{padding:12px 0 0}.mobile-app .detail-title-row h2{font-size:21px}.mobile-app .detail-close,.mobile-app .save-place{width:44px;height:44px}
+.mobile-app .detail-actions{position:static;padding:12px 0 4px;margin-top:12px}.mobile-app .directory-floor{grid-template-columns:58px minmax(0,1fr)}.mobile-app .directory-floor li{font-size:12px;line-height:2}
+.mobile-app.has-mobile-detail:not(.library-open) .map-panel{flex-basis:34%;min-height:220px}
+.mobile-app .route-fields select{height:42px}.mobile-app .route-submit{min-height:44px;margin:10px 0}.mobile-app .route-summary{padding-top:12px}.mobile-app .route-caution{margin-bottom:10px}.mobile-app .route-stops{margin-top:16px}
+.mobile-app.gps-open .sidebar{display:none}.mobile-app.gps-open .map-panel{flex:1;min-height:0}
+.mobile-app .gps-top{top:10px;left:12px;right:12px;max-width:none;padding:4px 14px 12px}.mobile-app .gps-title{font-size:15px}.mobile-app .gps-top select{font-size:17px}
+.mobile-app .gps-bottom{bottom:20px;left:12px;right:12px;max-width:none;padding:15px 18px}
+.mobile-app.gps-open #map-wrap{inset:142px 0 238px}.mobile-app.gps-open .north{top:154px;right:20px}.mobile-app.gps-open .map-controls{right:14px;bottom:256px}.mobile-app.gps-open .map-controls .icon-button{width:36px;height:44px}.mobile-app #gps-metrics strong{font-size:38px}
+.mobile-app.library-open .map-panel{flex:0 0 48%;min-height:270px}.mobile-app .indoor-heading{display:none}.mobile-app .indoor-back{margin:5px 18px 0;min-height:44px}
+.mobile-app .floor-buttons{display:flex;overflow-x:auto;flex-shrink:0;padding:3px 18px;gap:4px}.mobile-app .floor-buttons button{flex:0 0 44px;min-height:44px}
+.mobile-app .indoor-search{padding:0 18px}.mobile-app .indoor-search input{height:40px}.mobile-app .indoor-list-heading{padding:12px 20px 5px}.mobile-app .room-list{padding:0 13px 6px}.mobile-app .room-row{min-height:56px;padding:7px}.mobile-app #room-detail{padding:10px 18px}
+.mobile-app .indoor-toolbar{top:13px;left:13px;right:13px}.mobile-app .indoor-breadcrumb{padding:10px;font-size:10px;gap:7px}.mobile-app .floor-select-wrap select{min-width:90px;font-size:11px}
+.mobile-app #floor-canvas{inset:80px 52px 47px 9px}.mobile-app .indoor-tools{right:13px;bottom:44px}.mobile-app .indoor-tools button{width:44px;height:44px}.mobile-app .indoor-legend{bottom:28px;gap:12px;font-size:8px}.mobile-app .floor-caption{bottom:3px;font-size:7px}.mobile-app .rotation-hint{display:none}
+.mobile-app dialog{width:390px;max-width:calc(100vw - 28px);padding:20px}
+@media(max-height:720px){.mobile-app .gps-top{top:4px}.mobile-app .gps-top label{display:none}.mobile-app.gps-open #map-wrap{top:112px;bottom:222px}.mobile-app .gps-bottom{bottom:16px;padding:10px 15px}.mobile-app.gps-open .map-controls{bottom:232px}.mobile-app.gps-open .north{top:120px}.mobile-app #gps-note{margin-bottom:7px}}
+
+/* Mobile: the header already names the campus, so the map tag gives way to the pin legend. */
+.mobile-app .brand small{font-size:11px;letter-spacing:0;font-weight:400;margin-top:2px}
+.mobile-app .map-tag{display:none}.mobile-app .map-top{justify-content:flex-end}
+.mobile-app .pin-legend{left:14px;top:14px;height:40px;padding:0 10px;gap:10px;font-size:11px;align-items:center}
+.mobile-app.gps-open .pin-legend{left:12px;top:150px;height:32px}
+.mobile-app.library-open .pin-legend{display:none}
+.mobile-app .map-mode button{font-size:12px}.mobile-app .filters button{font-size:12px}.mobile-app .place-row small{font-size:11px}
+.mobile-app .attribution{font-size:11px;padding:2px 4px}.mobile-app .indoor-legend{font-size:11px}.mobile-app .floor-caption{font-size:11px}
+.mobile-app .gps-title button{display:grid;place-items:center}.mobile-app .gps-title .icon{width:22px;height:22px}

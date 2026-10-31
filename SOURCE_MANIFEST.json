@@ -1,0 +1,540 @@
+{
+  "description": "SHA-256 of copied source files before repository documentation was added. Source labels contain no workstation paths.",
+  "files": [
+    {
+      "path": "map/amenity-models.js",
+      "origin": "campus-map/amenity-models.js",
+      "sha256": "15bf4988267ded1ae9379cb327d90a1777ed0dc55553484e2d3e1c31574205dd"
+    },
+    {
+      "path": "map/app.js",
+      "origin": "campus-map/app.js",
+      "sha256": "0897317e0dc79342ed55982e0ff53c7b5374f7522dbc4b1726b4e784f8b588b6"
+    },
+    {
+      "path": "map/assets/12.jpg",
+      "origin": "campus-map/assets/12.jpg",
+      "sha256": "9c7e3ff71594637207bb9fe30ceab183a6258215a6233039ef31f049312aac9f"
+    },
+    {
+      "path": "map/assets/13.jpg",
+      "origin": "campus-map/assets/13.jpg",
+      "sha256": "bec59e5f3aab78c7df0b55f9bd8e750dc8208e98dcf542fcd0aa3e2019b51a7c"
+    },
+    {
+      "path": "map/assets/15.jpg",
+      "origin": "campus-map/assets/15.jpg",
+      "sha256": "126ac7eb9d49775b347077bfd4653d7362ad1a1616f4d61a9a906102d73645ea"
+    },
+    {
+      "path": "map/assets/16.jpg",
+      "origin": "campus-map/assets/16.jpg",
+      "sha256": "74693aa5576f39a56bbc2be4fe1144ffe3cd7e4b68f75535179479a48acb49d1"
+    },
+    {
+      "path": "map/assets/18.jpg",
+      "origin": "campus-map/assets/18.jpg",
+      "sha256": "01a5682ac02b4e7c036550edef2f4271ee6b8282dca8ba03489d48ab98563b4a"
+    },
+    {
+      "path": "map/assets/19.jpg",
+      "origin": "campus-map/assets/19.jpg",
+      "sha256": "5142bcd23175ff2b71bccf4a00322cf07e72d2d5738d8b5235dbc997528a7e11"
+    },
+    {
+      "path": "map/assets/20.jpg",
+      "origin": "campus-map/assets/20.jpg",
+      "sha256": "63f13aebc818377f7217cb90be13f9e612ec8f4afabb37e5ed23fb5ebeb43587"
+    },
+    {
+      "path": "map/assets/21.jpg",
+      "origin": "campus-map/assets/21.jpg",
+      "sha256": "9723703adb718beea4e84bf99a721c183d09499a61fbaeea4b012169caf4af5f"
+    },
+    {
+      "path": "map/assets/22.jpg",
+      "origin": "campus-map/assets/22.jpg",
+      "sha256": "c4ae85f1a7134034073cdd4c19af14c8c0bc1c2876de4cd1519a93f37bb38678"
+    },
+    {
+      "path": "map/assets/23.jpg",
+      "origin": "campus-map/assets/23.jpg",
+      "sha256": "1eea7a52f12f81e587f25e98530b1191cf8ac07208e7578261a22ca05f146ff7"
+    },
+    {
+      "path": "map/assets/24.jpg",
+      "origin": "campus-map/assets/24.jpg",
+      "sha256": "34812a8774a995a332f718dbf5c56904f812935b711a5ecf6fae24ad756c4d2b"
+    },
+    {
+      "path": "map/assets/25.jpg",
+      "origin": "campus-map/assets/25.jpg",
+      "sha256": "9304d9d49162b4730bcad1fa8e5556463b22a1e6d56f8cc71db25ebf55ca8432"
+    },
+    {
+      "path": "map/assets/26.jpg",
+      "origin": "campus-map/assets/26.jpg",
+      "sha256": "fa898f6cc9bfa08ac41405a0edf348366bc4d3b79757651e425084e0eaa7e698"
+    },
+    {
+      "path": "map/assets/27.jpg",
+      "origin": "campus-map/assets/27.jpg",
+      "sha256": "58eea5cb044f9fe4e19cff81cc0b3b3112052fc9d5caffb355aa53c68b6721ea"
+    },
+    {
+      "path": "map/assets/28.jpg",
+      "origin": "campus-map/assets/28.jpg",
+      "sha256": "6565139b805aeefaeb279fa69322c13b168645817c30f0a9276eaf088e4e97d7"
+    },
+    {
+      "path": "map/assets/29.jpg",
+      "origin": "campus-map/assets/29.jpg",
+      "sha256": "dc380b5e27feb21858048236489890f9219f9d6d15fcc67063ddad247cbc1814"
+    },
+    {
+      "path": "map/assets/34.jpg",
+      "origin": "campus-map/assets/34.jpg",
+      "sha256": "289e02806f304414cbbf219e8f374fe64793e08da4c610dd52b04a7d6bf3b147"
+    },
+    {
+      "path": "map/assets/35.jpg",
+      "origin": "campus-map/assets/35.jpg",
+      "sha256": "dc853006b0dc56a6935917950219456d3299494ba51ea75516237e4ee2facf1f"
+    },
+    {
+      "path": "map/assets/36.jpg",
+      "origin": "campus-map/assets/36.jpg",
+      "sha256": "fcbb5b2a640aa9ddb0ed83a308042283bdc1f33f38b171392f1c0226e111c9c2"
+    },
+    {
+      "path": "map/assets/38.jpg",
+      "origin": "campus-map/assets/38.jpg",
+      "sha256": "2ad4e81642351fcbcc3d8e2e8eccf8bce617a5e4c6221d2b6fbc6159e6f9961c"
+    },
+    {
+      "path": "map/assets/39.jpg",
+      "origin": "campus-map/assets/39.jpg",
+      "sha256": "afa5a3a2f6938185e1674077ff7c9f4a305df5fc0305b85f628ce52cc0a69b09"
+    },
+    {
+      "path": "map/assets/41.jpg",
+      "origin": "campus-map/assets/41.jpg",
+      "sha256": "1e41e0dcb32568215daa12f9e562d2c5fc4a82c5c7c74cf662c454acee3fd797"
+    },
+    {
+      "path": "map/assets/42.jpg",
+      "origin": "campus-map/assets/42.jpg",
+      "sha256": "4e8b7afe43eec6878b3625564b4e45c37860fd80f400e25b00778b43261436ad"
+    },
+    {
+      "path": "map/assets/45.jpg",
+      "origin": "campus-map/assets/45.jpg",
+      "sha256": "5680cbcc3bcc065c62f0f9f124e8a7ff88344c06a7de72ca9c8e090e405e9045"
+    },
+    {
+      "path": "map/assets/48.jpg",
+      "origin": "campus-map/assets/48.jpg",
+      "sha256": "2169c9abf1c4b72802527661d181f1a153982e89014ac4e0b037bbff000f4d5b"
+    },
+    {
+      "path": "map/assets/49.jpg",
+      "origin": "campus-map/assets/49.jpg",
+      "sha256": "47dd3c01ead6a4ac1fc03297bb04afca88bc82179d9e2fa23dcef09f39ae8b87"
+    },
+    {
+      "path": "map/assets/kyungnam-symbol.png",
+      "origin": "campus-map/assets/kyungnam-symbol.png",
+      "sha256": "837b23dedc1a0604bbc3e199d669e00f786b00f0a9035f8e68a2ad1cac53744b"
+    },
+    {
+      "path": "map/assets/library/floor1.png",
+      "origin": "campus-map/assets/library/floor1.png",
+      "sha256": "6e274706dfed565e9278058046bf567ec4f00d85d9095c1e0924ed6215ba5816"
+    },
+    {
+      "path": "map/assets/library/floor2.png",
+      "origin": "campus-map/assets/library/floor2.png",
+      "sha256": "e9f89ca93b4cc620a1d32d349e6b93c60f697ae4d0161ca75a9f436f7f8a9def"
+    },
+    {
+      "path": "map/assets/library/floor3.png",
+      "origin": "campus-map/assets/library/floor3.png",
+      "sha256": "363850468e34432fcd74769dacc9011980aa74b75a7bf5ec16fed13b3e9ea0ba"
+    },
+    {
+      "path": "map/assets/library/floor4.png",
+      "origin": "campus-map/assets/library/floor4.png",
+      "sha256": "250f800c6437eb395be6dc28239a5de030aea7fe4c17282a7deb2df8cf039066"
+    },
+    {
+      "path": "map/assets/library/floor5.png",
+      "origin": "campus-map/assets/library/floor5.png",
+      "sha256": "44f32530254bfbfd4723f8c26c1f5a7b3340ce2521623c140fdc51cdc413ee6e"
+    },
+    {
+      "path": "map/assets/library/floor7.png",
+      "origin": "campus-map/assets/library/floor7.png",
+      "sha256": "bbd72e5685a836bb3ad4d7e53aadcacb53bbd99bac7875b9051eadb7040fd10c"
+    },
+    {
+      "path": "map/assets/library/floor8.png",
+      "origin": "campus-map/assets/library/floor8.png",
+      "sha256": "8a77d0c2128034511dbb3a6951e9edc370683aa6fe63279cc176f2da4f6894b9"
+    },
+    {
+      "path": "map/assets/library/floorB1.png",
+      "origin": "campus-map/assets/library/floorB1.png",
+      "sha256": "1d05465cdb27790e563d878494ea2265ec0d9f25032f0a59b7fe5a2d886230b8"
+    },
+    {
+      "path": "map/assets/roads/final-roads.json",
+      "origin": "campus-map/assets/roads/final-roads.json",
+      "sha256": "04825d610d1f64b9c7ae71476e34a482eb1182a5bb32b049574739e3c0fd3b0f"
+    },
+    {
+      "path": "map/assets/roads/user-final-20261030-183905.json",
+      "origin": "campus-map/assets/roads/user-final-20261030-183905.json",
+      "sha256": "c8cf98e4a573d9062e35773527f493757ecdec2cf4f498cddc35328e5ed6be49"
+    },
+    {
+      "path": "map/assets/seonghun/floor1.svg",
+      "origin": "campus-map/assets/seonghun/floor1.svg",
+      "sha256": "c7a1dd8f8a551436bba2f1d6c28da8e1192336f3a47b101168bb930220006be5"
+    },
+    {
+      "path": "map/assets/seonghun/floor2.svg",
+      "origin": "campus-map/assets/seonghun/floor2.svg",
+      "sha256": "ccdb3e000f1a78f720a5f1cbdb315dd489434fda183f3eada65c85205291a609"
+    },
+    {
+      "path": "map/assets/seonghun/floor3.svg",
+      "origin": "campus-map/assets/seonghun/floor3.svg",
+      "sha256": "27d63ccc7744e5b80434ab0ee65bfd23a1e9bb8ae6a3e596e2777c13942284bf"
+    },
+    {
+      "path": "map/assets/seonghun/floor4.svg",
+      "origin": "campus-map/assets/seonghun/floor4.svg",
+      "sha256": "a07681434b071e3646d326fcdb7883787cad99fefd3d9c6205bbc6e40777dc93"
+    },
+    {
+      "path": "map/assets/seonghun/floor5.svg",
+      "origin": "campus-map/assets/seonghun/floor5.svg",
+      "sha256": "75084a060468894fe25d22fc90646ed723026359c90c282aa573337ac7ad40e8"
+    },
+    {
+      "path": "map/assets/seonghun/supplied-plans.html",
+      "origin": "campus-map/assets/seonghun/supplied-plans.html",
+      "sha256": "8e855ab40e7c075f19ec73f0a14210255d8fc92d25adf721982a09b105ff0e08"
+    },
+    {
+      "path": "map/assistant-link.css",
+      "origin": "campus-map/assistant-link.css",
+      "sha256": "27c5960d9435506e5caf33bfa78c45611e20b652618aa467ed56bf48366d008c"
+    },
+    {
+      "path": "map/building-directory-data.js",
+      "origin": "campus-map/building-directory-data.js",
+      "sha256": "91f1f0540d2452c8b412b2ce2b15f0ac30b4107cb172d9c6181a446ea2e297f4"
+    },
+    {
+      "path": "map/building-directory.css",
+      "origin": "campus-map/building-directory.css",
+      "sha256": "d378c898efedfb9e962325d270513435f3ddd63aba73abbd227c6986ad08a20c"
+    },
+    {
+      "path": "map/building-directory.js",
+      "origin": "campus-map/building-directory.js",
+      "sha256": "ce568c92277481f4702d47203da24667fd8b2f85258e6f39efcd702e3938942b"
+    },
+    {
+      "path": "map/campus-data.json",
+      "origin": "campus-map/campus-data.json",
+      "sha256": "65afa0d7193918c594d418eb61ebac4cb341e591b958af16b9401e8394b3a77d"
+    },
+    {
+      "path": "map/core.js",
+      "origin": "campus-map/core.js",
+      "sha256": "712b1b413e413b669d547e64e8f5a4236fe7f6d51fbdcc261f359c9c252c4fb7"
+    },
+    {
+      "path": "map/data.js",
+      "origin": "campus-map/data.js",
+      "sha256": "59afdf6292ea1d32640520fb4b61576f0e61cea99a8ba38933fb3e4b6bfb6031"
+    },
+    {
+      "path": "map/final-roads.js",
+      "origin": "campus-map/final-roads.js",
+      "sha256": "741c8f886f4a4678446ee92b7b771f72a47cd08ba1b1c951b493ab24fab218cc"
+    },
+    {
+      "path": "map/floor-scene.js",
+      "origin": "campus-map/floor-scene.js",
+      "sha256": "b7f1088e77dac20bfe20e3e17ed73934d8c6e318e034a51689f7c1ea43e53404"
+    },
+    {
+      "path": "map/gps-navigation.css",
+      "origin": "campus-map/gps-navigation.css",
+      "sha256": "4c75cfd14687d0c0b74b8461252b22d756e2fcabb01cd0cc603763d6ed69d2bd"
+    },
+    {
+      "path": "map/gps-navigation.js",
+      "origin": "campus-map/gps-navigation.js",
+      "sha256": "2d458709149c75b4adefbca0a4a6089c8e20663d261188a7c6d8431400c41174"
+    },
+    {
+      "path": "map/index.html",
+      "origin": "campus-map/index.html",
+      "sha256": "295dfd57e2ccc3f7c2bcff023188d8fff78eaa3e6d898bc3f6620194679c5fb0"
+    },
+    {
+      "path": "map/library.css",
+      "origin": "campus-map/library.css",
+      "sha256": "22cd60a7b287c24a90972aaa012c94ee83a1ed550eda10dbea5c54ff01d50c4e"
+    },
+    {
+      "path": "map/library.js",
+      "origin": "campus-map/library.js",
+      "sha256": "8b451e41fd3e30f4b634a0130e32b0281fb65655c15b67490b89d4dcb71aebc7"
+    },
+    {
+      "path": "map/mobile.css",
+      "origin": "campus-map/mobile.css",
+      "sha256": "aca3c6f637819c6b6e5ca63d12d8b6401a40b1f7495d41114472d6e4e57561cb"
+    },
+    {
+      "path": "map/mobile.html",
+      "origin": "campus-map/mobile.html",
+      "sha256": "83d572c2d383b96aa466b028acb5e9b7bedf32795f571b18c5d995f8caf815b7"
+    },
+    {
+      "path": "map/parking-data.js",
+      "origin": "campus-map/parking-data.js",
+      "sha256": "7e32590bd1e27e9088051bafd3d899028ec1d52ac416e93874fcae5e491449ca"
+    },
+    {
+      "path": "map/public-share.mjs",
+      "origin": "campus-map/public-share.mjs",
+      "sha256": "28ee90f28a118b2b36c0a5edf920da00f8159c8f5bf64520c185dc9f0c239ef8"
+    },
+    {
+      "path": "map/road-editor.css",
+      "origin": "campus-map/road-editor.css",
+      "sha256": "690f3e5dd3e0e4239ab47a6fd98d0546f4e4d349a47dc572e837b2f00273334c"
+    },
+    {
+      "path": "map/road-editor.js",
+      "origin": "campus-map/road-editor.js",
+      "sha256": "8be27565520e247d98d1fd0d2ec6d9144233e8a0a82e46e51978aaf0abf8cfdc"
+    },
+    {
+      "path": "map/road-network.js",
+      "origin": "campus-map/road-network.js",
+      "sha256": "4420e2cda129c41ed4e529b38e7b733169cc6ca927cb1a5f2408061983ebcaaa"
+    },
+    {
+      "path": "map/scene.js",
+      "origin": "campus-map/scene.js",
+      "sha256": "86e9e2f920ce81a4e1796a1cb5dd2a1a173150a606f61531cfc7c46fc2d29c7a"
+    },
+    {
+      "path": "map/seonghun-plans.js",
+      "origin": "campus-map/seonghun-plans.js",
+      "sha256": "e6c957c7bf4e6ec3651e76be4330fa6d122ef35edc3f5376b7d2023e4ce91d55"
+    },
+    {
+      "path": "map/serve.mjs",
+      "origin": "campus-map/serve.mjs",
+      "sha256": "94ef04069a2db0b8bf9a34ff887a860cbc22a1a1441506b2f17aeb5aa52e2142"
+    },
+    {
+      "path": "map/start.cmd",
+      "origin": "campus-map/start.cmd",
+      "sha256": "2222bcd41c31659dcee89af484143eae6720648f835ff1bca46743bc662cbd13"
+    },
+    {
+      "path": "map/styles.css",
+      "origin": "campus-map/styles.css",
+      "sha256": "4c8c26e2466109b03032c4f6e2c5a2d171a853ddce90881615278d9ee1ada7ff"
+    },
+    {
+      "path": "chatbot/crawl.py",
+      "origin": "kyungnam-chatbot/crawl.py",
+      "sha256": "67d1248652447ffa90082229519f921d6a11d27e2bc25d5b0a8b69c522b968c9"
+    },
+    {
+      "path": "chatbot/search.py",
+      "origin": "kyungnam-chatbot/search.py",
+      "sha256": "db4a6d62916076fbadf03fe151e97149fb5087cac159da9c0d1f1aae471a33b7"
+    },
+    {
+      "path": "chatbot/requirements.txt",
+      "origin": "kyungnam-chatbot/requirements.txt",
+      "sha256": "c53d9a95364a5207360681d505c2bcfc8e4e0ce49a414b902b7ff1f59a6f35b4"
+    },
+    {
+      "path": "chatbot/run_crawl.ps1",
+      "origin": "kyungnam-chatbot/run_crawl.ps1",
+      "sha256": "f6c46f7a5a718b7d24d31758174ba75d8659293f65c0e7a0e0f13ca6d81fdc2c"
+    },
+    {
+      "path": "chatbot/.dockerignore",
+      "origin": "kyungnam-chatbot/.dockerignore",
+      "sha256": "5de5cd2ab9b5c12f1f1a2f38c43d835132fd4275e001072cf7220b99bcb33532"
+    },
+    {
+      "path": "chatbot/harness/.env.example",
+      "origin": "kyungnam-chatbot/harness/.env.example",
+      "sha256": "9c6de3521558862b510c1f8bf3889f55ada1e7c0b184d00e4cc704ef5d36be24"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/__init__.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/__init__.py",
+      "sha256": "bf9fd51f6aea8b43233c34ba86adf0afc1cbd8877c68670bbe19b7e014f48c62"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/app.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/app.py",
+      "sha256": "938fbfdea9a8cb53441b5409140fde326d0613eb57a2a73ad164173bbb638da3"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/cli.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/cli.py",
+      "sha256": "0da6d7401fcfe87b5ca193e2a87dc98fa633bd6db69ae44f17056cb7c03f2a9a"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/codex.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/codex.py",
+      "sha256": "27a46f15929643525e9d70dd8a72b865dcea064a8146af1ef92039adbb5e631c"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/contracts.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/contracts.py",
+      "sha256": "b70872336ddf9682c2aa8b80ef0dd114f22c66b368fef279a76eb0f5195306b5"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/evaluate.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/evaluate.py",
+      "sha256": "504768c9afc12ec39f8fa9e6eabd81420d9a4e7c066a41b171ace66875338ebb"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/graph.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/graph.py",
+      "sha256": "f3f4055f8416482844737b69965e2d1932036fcc1916ff3e424a62df424ce079"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/live_check.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/live_check.py",
+      "sha256": "fccdb8037d89297e630e9b393d199cba47ddf9acd75f2be8ce76278110c5ee5a"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/llm.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/llm.py",
+      "sha256": "018f48fe1a8e6e490b17854dfd7ff15a670e486cb31389fac31ff1bdb746f38c"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/retrieval.py",
+      "origin": "kyungnam-chatbot/harness/campus_bot/retrieval.py",
+      "sha256": "e71eee2690cb735b861efc091c5a17ba18672ecd414b634091c30db22246d9c9"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/static/app.js",
+      "origin": "kyungnam-chatbot/harness/campus_bot/static/app.js",
+      "sha256": "4fc6ae38fccb9e6469e2b49197b4abebbb8ff881727ae738efd3fa4f3c700548"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/static/index.html",
+      "origin": "kyungnam-chatbot/harness/campus_bot/static/index.html",
+      "sha256": "402959861bf09b07868d677654ae4d72cd7de7ecd754c746e94e9d771759de29"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/static/kyungnam-symbol.png",
+      "origin": "kyungnam-chatbot/harness/campus_bot/static/kyungnam-symbol.png",
+      "sha256": "4ead8b483e41c1933c85b1d40ff487a1613e8e838232d7c674c7d990aa20757c"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/static/mobile.css",
+      "origin": "kyungnam-chatbot/harness/campus_bot/static/mobile.css",
+      "sha256": "bb46b8757feed9780dfe1c5f79cf70e4e0c79c3eda057c8e60e2f4850b2e92a9"
+    },
+    {
+      "path": "chatbot/harness/campus_bot/static/style.css",
+      "origin": "kyungnam-chatbot/harness/campus_bot/static/style.css",
+      "sha256": "000d81218b3c3cecd959f5977c23095df98200ead4b3a53ab3c5e97c21ad1f1f"
+    },
+    {
+      "path": "chatbot/harness/compose.yaml",
+      "origin": "kyungnam-chatbot/harness/compose.yaml",
+      "sha256": "71b145e2290c490744232110130dcd33b67059f4d0ad18e7d5af061a1417f33f"
+    },
+    {
+      "path": "chatbot/harness/Dockerfile",
+      "origin": "kyungnam-chatbot/harness/Dockerfile",
+      "sha256": "2754603e3e540da9f7164d6bb51baec9ac1c504a42a07a5482efe9f4610d0d43"
+    },
+    {
+      "path": "chatbot/harness/eval_cases.json",
+      "origin": "kyungnam-chatbot/harness/eval_cases.json",
+      "sha256": "e4cd419430b3f2a86871a399751be42a6dd86da6b19439ae9a992432f0835099"
+    },
+    {
+      "path": "chatbot/harness/pyproject.toml",
+      "origin": "kyungnam-chatbot/harness/pyproject.toml",
+      "sha256": "2997714e0e528b5445cb0e0e71b7d94bc232d0f78b28bffbc8d8f237a5f6f6e9"
+    },
+    {
+      "path": "chatbot/harness/requirements-dev.txt",
+      "origin": "kyungnam-chatbot/harness/requirements-dev.txt",
+      "sha256": "32ab39156b46247e53b76a90d35f932fa71962c9cbff594f247ef361d6b0faa8"
+    },
+    {
+      "path": "chatbot/harness/requirements.lock",
+      "origin": "kyungnam-chatbot/harness/requirements.lock",
+      "sha256": "65abf5eb3d97689155157cb6671ddab217a41ab63032e6ed65bdf74e7e539645"
+    },
+    {
+      "path": "chatbot/harness/requirements.txt",
+      "origin": "kyungnam-chatbot/harness/requirements.txt",
+      "sha256": "83138030e7c7abddd32e347927f500efef542c246e2efe383ec1ab1e2272366c"
+    },
+    {
+      "path": "chatbot/harness/setup.ps1",
+      "origin": "kyungnam-chatbot/harness/setup.ps1",
+      "sha256": "fea8463851be7d69c27ca36ca750d75a194db7f36a912573ee76e2cde5aa6aae"
+    },
+    {
+      "path": "chatbot/harness/start.ps1",
+      "origin": "kyungnam-chatbot/harness/start.ps1",
+      "sha256": "6568bdcdaead9221155c1e77dd885fd98063eb47e61e2ecca6d39ea3d30ecab5"
+    },
+    {
+      "path": "chatbot/harness/stop.ps1",
+      "origin": "kyungnam-chatbot/harness/stop.ps1",
+      "sha256": "a7a4d7d604f71d89d632b5827207d55f0caff9f18483b810d5e54c9d75518d40"
+    },
+    {
+      "path": "chatbot/harness/tests/test_codex.py",
+      "origin": "kyungnam-chatbot/harness/tests/test_codex.py",
+      "sha256": "044977fdf5652d190ff6c4c98bacb42b7f4094dd5221cf07702f0fd1a3779950"
+    },
+    {
+      "path": "chatbot/harness/tests/test_llm.py",
+      "origin": "kyungnam-chatbot/harness/tests/test_llm.py",
+      "sha256": "c36a9267dae7c668f8e07039a0ad505855c435b3cfabab93742c0aa0b7e67610"
+    },
+    {
+      "path": "chatbot/harness/tests/test_planning.py",
+      "origin": "kyungnam-chatbot/harness/tests/test_planning.py",
+      "sha256": "84d4945d5566906cdc56b5804eda76580a72085f23fd6ac35f15fd158a6da1f3"
+    },
+    {
+      "path": "chatbot/harness/tests/test_runtime.py",
+      "origin": "kyungnam-chatbot/harness/tests/test_runtime.py",
+      "sha256": "a266cd6130d8dc43ed639a72367389d85646cab4ada4df901af3fa22d6a1a59a"
+    },
+    {
+      "path": "chatbot/harness/verify.ps1",
+      "origin": "kyungnam-chatbot/harness/verify.ps1",
+      "sha256": "b01a55684aa22d1e18db99876479eb187ee5bff8d3337384ee6b2ece0ea80b9f"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "start_url": "https://www.kyungnam.ac.kr/sites/ko/main.jsp",
+  "site_owner_permission_confirmed": false,
+  "permission_note": "새 수집을 실행하기 전에 해당 수집 범위의 허가와 이용 조건을 확인하세요.",
+  "request_interval_seconds": 1.0,
+  "max_response_bytes": 20971520,
+  "max_curriculum_bytes": 67108864,
+  "max_fetches_per_run": 3000,
+  "core_board_pages": 3,
+  "calendar_years": [
+    2026,
+    2027
+  ],
+  "scope": "대표 국문 홈페이지에서 연결된 ko 안내 페이지, 학과 첫 화면, 교양교육·생활관·국제교류 안내. 학사/장학/일반 공지 최신 3페이지, 기타 게시판 첫 페이지. 같은 호스트의 공개 PDF 본문 추출."
+}

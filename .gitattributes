@@ -1,0 +1,2 @@
+# Preserve source bytes across Windows/macOS/Linux for SOURCE_MANIFEST.json.
+* -text

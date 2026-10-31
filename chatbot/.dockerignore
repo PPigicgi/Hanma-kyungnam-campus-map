@@ -1,0 +1,9 @@
+*.db
+*.db-*
+*.jsonl
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.runtime.json
+**/campus-runtime
+**/.env

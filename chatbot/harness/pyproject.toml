@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kyungnam-campus-harness"
+version = "1.1.0"
+description = "Read-only LangGraph campus Q&A with web/API and Codex development harness"
+requires-python = ">=3.11"
+dependencies = ["langgraph==1.2.18", "fastapi==0.162.0", "uvicorn==0.54.0", "openai==3.41.0", "python-dotenv==1.2.4"]
+
+[tool.setuptools.packages.find]
+include = ["campus_bot*"]
+
+[tool.setuptools.package-data]
+campus_bot = ["static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

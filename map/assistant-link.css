@@ -1,0 +1,17 @@
+/* Shared entry to the existing Hanma chatbot; keep the map open in this tab. */
+:root{--campus-header-height:120px}
+.header{height:var(--campus-header-height)}
+.workspace,.gps-open .workspace,.mobile-app .workspace,.mobile-app.gps-open .workspace{height:calc(100dvh - var(--campus-header-height))}
+.brand-area{display:flex;flex-direction:column;gap:3px;min-width:0}
+.header-actions{align-self:flex-start;margin-top:18px}
+.assistant-launch{display:flex;align-self:flex-start;align-items:center;gap:7px;margin-left:58px;min-height:44px;padding:4px 12px 4px 5px;border:1px solid #d4e0d7;border-radius:24px;background:#f4f8f5;color:#284e3c;text-decoration:none;font-size:12px;font-weight:650;line-height:1.4;white-space:nowrap}
+.assistant-launch:hover{background:#e7f0eb;border-color:#9ab9a8}
+.assistant-launch:active{background:#dceae2}
+.assistant-launch svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.6}
+.assistant-symbol{display:grid;place-items:center;flex-shrink:0;width:27px;height:27px;border-radius:50%;overflow:hidden;background:#003a56}
+.assistant-symbol img{width:92%;height:92%;object-fit:contain;display:block}
+body.mobile-app{--campus-header-height:112px}
+.mobile-app .header{height:var(--campus-header-height)}
+.mobile-app .assistant-launch{margin-left:44px;font-size:11px}
+.mobile-app .header-actions{margin-top:10px}
+@media(max-width:700px){:root{--campus-header-height:112px}.assistant-launch{margin-left:44px;font-size:11px}.header-actions{margin-top:10px}}
