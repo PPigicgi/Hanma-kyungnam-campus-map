@@ -11,6 +11,14 @@
 
 <sub>캠퍼스 건물과 보행 도로망 · 개발 중 촬영한 PC 화면</sub>
 
+## 길찾기 영상
+
+<a href="docs/videos/campus-navigation.mp4"><img src="docs/images/campus-navigation.gif" width="320" alt="정문에서 성훈관과 중앙도서관까지 경로와 예상 도보 시간을 확인하는 시연"></a>
+
+- **시연 흐름**: 출발지·목적지 선택 → 최단 경로 → 거리·예상 도보 시간
+- **화면**: 모바일 프로토타입 · 장소 간 길찾기 화면 녹화
+- **[전체 영상 보기 · MP4](docs/videos/campus-navigation.mp4)**
+
 ## 주요 기능
 
 | 기능 | 내용 |
@@ -165,6 +173,7 @@ node tests/map-sharing.mjs
 | `chatbot/harness/campus_bot/` | 질문 API·검색·모델 어댑터·테스트 화면 |
 | `chatbot/harness/tests/`, `tests/` | 챗봇·지도 자동화 검사 |
 | `docs/images/` | 프로젝트 화면 사진 |
+| `docs/videos/` | 길찾기 시연 영상 |
 | `SOURCE_MANIFEST.json` | 가져온 코드·자산의 SHA-256 목록 |
 
 ## 팀 · 어디로 가조
@@ -172,7 +181,7 @@ node tests/map-sharing.mjs
 | 이름 | 역할 |
 | --- | --- |
 | [PPigical · 김민재](https://github.com/PPigicgi) | 백엔드·프론트엔드 개발 |
-| [hyeonmn](https://github.com/hyeonmn) | QA · 서비스 테스트·피드백 |
+| [hyeonmn · 박현민](https://github.com/hyeonmn) | QA · 서비스 테스트·피드백 |
 
 ## 기술·자료
 
