@@ -182,6 +182,7 @@ node tests/map-sharing.mjs
 | --- | --- |
 | [PPigical · 김민재](https://github.com/PPigicgi) | 백엔드·프론트엔드 개발 |
 | [hyeonmn · 박현민](https://github.com/hyeonmn) | QA · 서비스 테스트·피드백 |
+| [dbswohrks7190-bot · 윤재관](https://github.com/dbswohrks7190-bot) | 데이터 검증 · QA |
 
 ## 기술·자료
 
