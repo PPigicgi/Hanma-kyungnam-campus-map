@@ -176,7 +176,7 @@ node tests/map-sharing.mjs
 | `docs/videos/` | 길찾기 시연 영상 |
 | `SOURCE_MANIFEST.json` | 가져온 코드·자산의 SHA-256 목록 |
 
-## 팀 · 어디로 가조
+## 공동 제작 · 어디로 가조
 
 | 이름 | 역할 |
 | --- | --- |
